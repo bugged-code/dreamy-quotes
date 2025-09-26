@@ -1,0 +1,21 @@
+{
+  "name": "dreamy-quotes",
+  "version": "1.0.0",
+  "description": "Una aplicación web que muestra citas inspiradoras con animaciones",
+  "main": "public/main.js",
+  "scripts": {
+    "start": "npm run minimize && npx serve dist",
+    "dev": "npx live-server --port=3000 public",
+    "minimize": "sh minimize.sh"
+  },
+  "keywords": [],
+  "author": "bugged-code",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "html-minifier-terser": "7.2.0",
+    "live-server": "1.2.2",
+    "serve": "14.2.5"
+  }
+}
