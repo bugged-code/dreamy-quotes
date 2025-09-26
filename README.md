@@ -11,8 +11,6 @@ Cada clic en **"CITA"** trae una nueva frase y se anima usando GSAP.
 
 ## Instalación
 
-**No se requiere servidor!** puedes abrir _**'public/index.html'**_ en tu navegador
-
 ```bash
 git clone https://github.com/bugged-code/dreamy-quotes.git
 cd dreamy-quotes
