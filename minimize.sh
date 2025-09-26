@@ -2,8 +2,9 @@
 rm -rf dist
 mkdir -p dist/{styles,art}
 
-# copiar art/
+# copiar favicon & art/
 cp public/art/* dist/art/
+cp public/favicon.ico dist/
 
 # minificar HTML
 npx html-minifier-terser \
